@@ -1,8 +1,5 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
-import 'package:rojotani/Awal/loginPetani.dart';
-import 'package:rojotani/Awal/registerAs.dart';
-import 'package:rojotani/Awal/dataDiri.dart';
 
 class homePage extends StatefulWidget {
   @override
