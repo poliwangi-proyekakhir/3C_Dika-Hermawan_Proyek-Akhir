@@ -1,5 +1,7 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
+import 'package:rojotani/petani/produk/dashboard.dart'; 
+
 
 class dataDiriPage extends StatefulWidget {
   @override
@@ -189,7 +191,11 @@ class _dataDiriPageState extends State<dataDiriPage> {
                           child: Material(
                             color: Colors.transparent,
                             child: InkWell(
-                              onTap: () {},
+                              onTap: () {
+                                 Route route = MaterialPageRoute(
+                        builder: (context) => homePage());
+                    Navigator.push(context, route);
+                              },
                               child: Center(
                                 child: Text(
                                   'Lanjutkan',

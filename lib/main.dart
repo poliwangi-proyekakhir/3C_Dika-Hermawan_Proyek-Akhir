@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'petani/produk/dashboard.dart';
- import 'awal/registerPetani.dart';
+import 'petani/transaksi/cekOut.dart';
+ import 'awal/loginAs.dart';
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         ),
-        home: homePage(),
+        home: cekoutPage(),
       );
   }
 }

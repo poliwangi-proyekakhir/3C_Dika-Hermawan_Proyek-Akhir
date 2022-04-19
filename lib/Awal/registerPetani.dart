@@ -76,7 +76,7 @@ class _registerPetaniPageState extends State<registerPetaniPage> {
                           height: 47.h,
                         ),
                         Text(
-                          'Daftar Sebagai',
+                          'Daftar Akun',
                           style: TextStyle(
                               fontFamily: 'Mulish',
                               fontSize: 20.sp,

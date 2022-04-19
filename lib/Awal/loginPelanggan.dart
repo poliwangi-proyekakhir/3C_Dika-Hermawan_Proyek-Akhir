@@ -74,7 +74,7 @@ class _loginPelangganPageState extends State<loginPelangganPage> {
                           height: 47.h,
                         ),
                         Text(
-                          'Daftar Sebagai',
+                          'Masukkan akun',
                           style: TextStyle(
                               fontFamily: 'Mulish',
                               fontSize: 20.sp,
