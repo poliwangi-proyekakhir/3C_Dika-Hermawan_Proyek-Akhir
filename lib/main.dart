@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
 import 'petani/produk/katalog.dart';
 import 'petani/transaksi/keranjang.dart';
- import 'SplashScreen.dart';
+import 'SplashScreen.dart';
+import 'Awal/loginPelanggan.dart';
+
 void main() {
-  
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget {
 
-  @override 
+class MyApp extends StatelessWidget {
+  @override
   Widget build(BuildContext context) {
-    return MaterialApp( 
-        debugShowCheckedModeBanner: false,
-        title: 'RojoTani',
-        theme: ThemeData(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'RojoTani',
+      theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        ),
-        home: katalogPage(), 
-            //homePage()
-      );
+      ),
+      home: katalogPage(),
+      //homePage()
+    );
   }
 }

@@ -34,7 +34,7 @@ class _homePageState extends State<homePage> {
               children: [
                 Container(
                   width: 247.w,
-                  height: 39.w,
+                  height: 39.h,
                   decoration: BoxDecoration(
                     color: Colors.grey[100],
                     borderRadius: BorderRadius.circular(8.r),
@@ -200,25 +200,29 @@ class _homePageState extends State<homePage> {
             ),
           ),
         ),
-        SizedBox(height: 10.w,),
-        Padding(padding: EdgeInsets.only(left: 32.w),
-        child: Text('Sedang Lelang',
-            style: TextStyle(
-                fontSize: 20.sp,
-                fontWeight: FontWeight.w700,
-                fontFamily: 'Mulish'),)),
-                Padding(
-                  padding: EdgeInsets.only(left: 32.w),
-                  child: Card(
-                    child: Column(
-                      children: [
-                        Image.asset('asset/gambar/pisang.png'),
-                        Text('data'),
-
-                      ],
-                    ),
-                  ),
-                )
+        SizedBox(
+          height: 10.w,
+        ),
+        Padding(
+            padding: EdgeInsets.only(left: 32.w),
+            child: Text(
+              'Sedang Lelang',
+              style: TextStyle(
+                  fontSize: 20.sp,
+                  fontWeight: FontWeight.w700,
+                  fontFamily: 'Mulish'),
+            )),
+        Padding(
+          padding: EdgeInsets.only(left: 32.w),
+          child: Card(
+            child: Column(
+              children: [
+                Image.asset('asset/gambar/pisang.png'),
+                Text('data'),
+              ],
+            ),
+          ),
+        )
       ]),
     )));
   }
