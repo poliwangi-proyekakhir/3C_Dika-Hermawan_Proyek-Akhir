@@ -62,9 +62,10 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 8.w,
+                        width: 12.w,
                       ),
                       Container(
+                        //color: Colors.blue,
                         margin: const EdgeInsets.only(
                           right: 16.0,
                         ),
@@ -85,7 +86,7 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 8.w,
+                        width: 12.w,
                       ),
                       Container(
                         margin: const EdgeInsets.only(

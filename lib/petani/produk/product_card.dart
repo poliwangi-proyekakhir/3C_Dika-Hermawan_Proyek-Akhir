@@ -62,9 +62,10 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 8.w,
+                        width: 12.w,
                       ),
                       Container(
+                        //color: Colors.blue,
                         margin: const EdgeInsets.only(
                           right: 16.0,
                         ),
@@ -85,7 +86,7 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 8.w,
+                        width: 12.w,
                       ),
                       Container(
                         margin: const EdgeInsets.only(
@@ -105,30 +106,6 @@ class productCard extends StatelessWidget {
                   SizedBox(
                     height: 2.h,
                   ),
-                  Row(
-                    children: [
-                      SizedBox(
-                        width: 75.w,
-                      ),
-                      Material(
-                        child: InkWell(
-                          onTap: press,
-                          child: Container(
-                            width: size.width * 0.06,
-                            height: size.height * 0.080,
-                            decoration: BoxDecoration(
-                              color: Color(0xFF53B175),
-                              borderRadius: BorderRadius.circular(12.r),
-                            ),
-                            child: Icon(
-                              Icons.add,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
                 ],
               ),
             ),
@@ -137,10 +114,10 @@ class productCard extends StatelessWidget {
         //Potrait
         : Container(
             margin: EdgeInsets.only(
-              top: 10.h,
+              left: 10.w,
             ),
             width: MediaQuery.of(context).size.width * 0.38,
-            height: MediaQuery.of(context).size.height * 0.28,
+            height: MediaQuery.of(context).size.height * 0.25,
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(15.r),
@@ -167,13 +144,13 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 18.w,
+                        width: 12.w,
                       ),
                       Container(
                         margin: const EdgeInsets.only(
-                          right: 18.0,
+                          right: 12.0,
                         ),
-                        width: 125,
+                        width: 121,
                         child: Text(
                           title,
                           style: TextStyle(
@@ -190,13 +167,13 @@ class productCard extends StatelessWidget {
                   Row(
                     children: [
                       SizedBox(
-                        width: 18.w,
+                        width: 12.w,
                       ),
                       Container(
                         margin: const EdgeInsets.only(
-                          right: 18.0,
+                          right: 12.0,
                         ),
-                        width: 125,
+                        width: 121,
                         child: Text(
                           harga,
                           style: TextStyle(
@@ -209,30 +186,6 @@ class productCard extends StatelessWidget {
                   ),
                   SizedBox(
                     height: 8.h,
-                  ),
-                  Row(
-                    children: [
-                      SizedBox(
-                        width: 100.w,
-                      ),
-                      Material(
-                        child: InkWell(
-                          onTap: press,
-                          child: Container(
-                            width: size.width * 0.12,
-                            height: size.height * 0.055,
-                            decoration: BoxDecoration(
-                              color: Color(0xFF53B175),
-                              borderRadius: BorderRadius.circular(12.r),
-                            ),
-                            child: Icon(
-                              Icons.add,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
                   ),
                 ],
               ),
